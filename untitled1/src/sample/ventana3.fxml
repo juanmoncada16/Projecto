@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane fx:id="display" prefHeight="720.0" prefWidth="500.0">
+         <children>
+            <Label layoutX="46.0" layoutY="35.0" prefHeight="53.0" prefWidth="420.0" text="Seleccione su restaurante">
+               <font>
+                  <Font name="Nokia Standard Multiscript" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="112.0" fitWidth="114.0" layoutX="46.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@taco_bell_logo_2934.gif" />
+               </image></ImageView>
+            <ImageView fitHeight="112.0" fitWidth="127.0" layoutX="287.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mcdonalds-95-logo.png" />
+               </image></ImageView>
+            <ImageView fitHeight="135.0" fitWidth="173.0" layoutX="287.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@KFC_Logo.png" />
+               </image></ImageView>
+            <ImageView fitHeight="120.0" fitWidth="200.0" layoutX="62.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pizza_Hut_Logo_2.jpg" />
+               </image></ImageView>
+            <Button fx:id="botone1" layoutX="24.0" layoutY="634.0" mnemonicParsing="false" onAction="#exit" prefHeight="69.0" prefWidth="184.0" text="Cancelar">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="293.0" layoutY="632.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="182.0" text="Siguiente">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="ph" layoutX="291.0" layoutY="557.0" mnemonicParsing="false" text="Pizza Hut">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="kfc" layoutX="73.0" layoutY="430.0" mnemonicParsing="false" text="KFC">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="tb" layoutX="293.0" layoutY="293.0" mnemonicParsing="false" text="Taco Bell">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="62.0" layoutY="137.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="147.0" text="MC Donald's">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </RadioButton>
+         </children></Pane>
+    </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
