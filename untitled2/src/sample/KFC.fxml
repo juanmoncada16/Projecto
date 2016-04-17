@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="540.0" text="KFC" xmlns="http://javafx.com/javafx/8.0.71" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="31.0" layoutY="30.0" text="COMBO 1" />
+            <Label layoutX="44.0" layoutY="277.0" text="COMBO 2" />
+            <Label layoutX="57.0" layoutY="556.0" text="COMBO 3" />
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="23.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@kfc1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="31.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@kfc4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="31.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@kfc3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="347.0" layoutY="116.0" text="\$4.99" textFill="#f20909">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="354.0" layoutY="658.0" text="\$4.99" textFill="#f20909">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="347.0" layoutY="375.0" text="\$6.99" textFill="#f20909">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
